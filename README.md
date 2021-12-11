@@ -15,3 +15,10 @@ basic stats on what's being blocked.
 
 ## Defaults: 
 By default, the program reads /var/log/ufw.log. Adjust the code to look at other files. 
+
+## the jupyter-notebook file
+I've included a jupyter-notebook file with some of the details of how I developed the regex in the code
+
+Have fun!
+
+Jeff
