@@ -2,9 +2,12 @@
 Parse the UFW log file for some simple statistics 
 
 ## UFW
-UFW is a basic firewall service on Ubuntu that can be enabled to block unwanted inbound traffic. 
+UFW is a basic firewall utility on Ubuntu that can be enabled to block unwanted inbound traffic. 
+More about UFW and its usage at https://help.ubuntu.com/community/UFW
 
-Logs are kept in /var/log/ufw.log, containing details of blocked traffic. 
+## Basics: 
+- You can enable UFW with the shell command: <code>$ sudo ufw enable</code> 
+- Logs are kept in /var/log/ufw.log, containing details of blocked traffic. 
 
 ## Stats from the logs 
 This program is a simple exercise to parse out the fields in the ufw.log and give some 
